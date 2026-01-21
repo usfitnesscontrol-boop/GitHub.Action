@@ -1,0 +1,11 @@
+name: manual Worflow
+on:
+  workflow_dispatch:
+
+jobs:
+  demo2:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: hello
+      run: echo "Workflow is running!"
