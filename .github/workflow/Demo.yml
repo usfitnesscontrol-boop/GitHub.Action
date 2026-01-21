@@ -1,4 +1,4 @@
-name: Demo
+name: Demo1
 on:
   push:
     branches: ["main"]
@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: hello
-    run: echo"Workflow is running!"
+      run: echo "Workflow is running!"
